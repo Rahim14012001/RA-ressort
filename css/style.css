@@ -1,0 +1,240 @@
+body{
+    font-size: 20px;
+    font-weight: 400;
+    height: 400px;
+    font-family: 'sevillana';
+    color:black;
+}
+a{
+    color:aliceblue;
+}
+.header-row1 img{
+    width:50%;
+}
+.header-row1{
+    margin:-50px -150px 30px 0px; 
+    background-image:url(../image/image6.jpg);
+    background-size: cover;
+    width: 100%;
+    color:white;
+}
+.hr-inner1{
+    display: none;
+}
+.navbar-nav  li:hover .hr-inner1{
+    display: block;
+    position: absolute;
+}
+.navbar-nav  li:hover .hr-inner1 a{
+    text-decoration: none;
+}
+.navbar-nav li:hover dd{
+    border: 3px solid white;
+    background-color: black;
+}
+.hr1-1{
+    background: black;
+    opacity: 0.8;
+}
+.hr-inner2{
+    display: none;
+}
+.navbar-nav  li:hover .hr-inner2 a{
+    text-decoration: none;
+}
+.navbar-nav li:hover .hr-inner2{
+    display:block;
+    position: absolute;
+
+}
+.navbar-nav a:hover{
+    background-color: #0EEBF2 ;
+    color:white;
+    border-radius: 15px;
+}
+.navbar-nav{
+    margin-left: -230px;
+    grid-gap: 20px;
+}
+.hr1-2 h1{
+    padding: 195px 124px 95px 442px;
+}
+.hr1-2 img{
+    width: 70px;
+}
+.hr1-2 a{
+    border: solid white 3px;
+    background-color: #800000;
+    padding: 0px 10px;
+    margin: 84px 0px 0px 587px;
+    position: absolute;
+    text-decoration: none;
+}
+.hr1-2 a:hover{
+    background-color: #0EEBF2;
+    color: white;
+}
+.article-row1{
+    padding-top:-30px ;
+    padding-bottom: 20px;
+}
+.article-row1 h1{
+    color:#800000;
+}
+.article-row1 p{
+    color:black;
+}
+.article-row1 a{
+    color: #800000;
+    text-decoration: none;
+    background-color: #0EEBF2;
+    text-shadow:0px -4px  white;
+}
+.article-row1 img {
+    box-shadow: 47px 47px 0px -4px cyan;
+}
+.article-row1 a:hover{
+    background-color:#d7f20e;
+}
+.article-row2{
+    background-image: url(../image/image9.jpg);
+    padding: 70px;
+    color: antiquewhite;
+    text-align: center;
+}
+.article-row2 a{
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 5px 15px;
+    background-color:#800000;
+    border-radius: 10px;
+    color:white;
+}
+.article-row2 h2{
+    color: #800000;
+    box-shadow: 5px 5px 5px 5px  white;
+    text-shadow:0px 4px #d7f20e;
+    width: 40%;
+    margin-left: 350px;
+}
+.article-row2 a:hover{
+    background-color: #0EEBF2;
+}
+.article-row2 p{
+    color: white;
+    font-size: 20px;
+}
+.ar3-inner2{
+    border: 3px solid #d8cfcf;
+    background-color:#d8cfcf ;
+}
+.ar3-inner3{
+    border: 3px solid #d8cfcf;
+    background-color:#d8cfcf ;
+}
+.article-row3 p{
+    text-align: center;
+}
+.row{
+    padding: 20px 0px;
+}
+.ar3-inner h2{
+    text-align: center;
+    padding-top: 30px;
+    color:#800000;
+}
+.ar3-inner hr{
+    width: 133px;
+    background-color:#800000;
+}
+.article-row3 a{
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+    background-color:#800000;
+    padding-left: 90px;
+    text-align: center;
+    display: flex;
+
+}
+.article-row3 a:hover{
+    border: 2px solid #800000;
+    background-color: white;
+    color: #800000;
+}
+.article-row4{
+    text-align: center;
+    margin-bottom: -29px;
+    background-color: #d8cfcf;
+    padding: 50px;
+    font-family:'Dancing Script';
+}
+.article-row4 button{
+    background-color: aqua;
+    border: 3px solid aqua;
+    color: white;
+}
+.article-row4 input{
+    padding-right: 40px;
+    outline: none;
+    background-color: white;
+    color:#0EEBF2;
+  
+}
+.article-row4 h2{
+    color: white;
+}
+.article-row4 span{
+    color: #f20e71;
+}
+.footer{
+    background-color:#d8cfcf ;
+    margin-top: 30px;
+    color: darkgreen;
+}
+.footer h3{
+    color: #800000;
+    padding-top: 30px;
+}
+.footer a{
+    color: darkgreen;
+    text-decoration: none;
+}
+.fr-1 i{
+    color: darkgreen;
+    position: absolute;
+    top: 117px;
+    left: 18px;
+}
+.footer .row{
+    padding-left: 145px;
+    margin-right: 0px;
+}
+.fr-1 p{
+    padding-left: 24px;
+}
+.fr1-2{
+    padding: 40px 37px;
+}
+.fr1-3{
+    position: absolute;
+    top: 240px;
+    right: 138px;
+} 
+.fr1-4{
+    position: absolute;
+    right: 41px;
+    top: -52px;
+}
+.footer1{
+    background-color: #800000 ;
+    color: #d8cfcf;
+    display: flex;
+}
+.fr-inner{
+    padding-left:55%;
+    padding-top: 5px;
+}
+.footer1 p{
+    padding-left: 50px;
+}
